@@ -30,7 +30,17 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'XNKit/Classes/**/*'
+#  s.source_files = 'XNKit/Classes/**/*'
+
+  
+  s.subspec 'Utils' do |ss|
+    ss.source_files = 'XNKit/Classes/Utils/**/*.{h,m}'
+  end
+  
+
+  s.subspec 'Extension' do |ss|
+    ss.source_files = 'XNKit/Classes/Extension/*.{h,m}'
+  end
   
   # s.resource_bundles = {
   #   'XNKit' => ['XNKit/Assets/*.png']
