@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'XNKit'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of XNKit.'
+  s.version          = '1.1'
+  s.summary          = 'IOS开发中常用的工具类集锦'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -24,7 +24,7 @@ TODO: Add long description of the pod here.
   s.homepage         = 'https://github.com/LuohanCC/XNKit'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'LuohanCC' => 'jarvis.luo@anker.com' }
+  s.author           = { 'LuohanCC' => 'luohancc@163.com' }
   s.source           = { :git => 'https://github.com/LuohanCC/XNKit.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
