@@ -7,7 +7,6 @@
 //
 
 #import "XNViewController.h"
-#import "../Extension/UIColor+XNExtension.h"
 #import "../Extension/UIViewController+XNExtension.h"
 
 @interface XNViewController ()

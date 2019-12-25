@@ -24,42 +24,35 @@ PODS:
   - SDWebImage (5.4.0):
     - SDWebImage/Core (= 5.4.0)
   - SDWebImage/Core (5.4.0)
-  - XNKit (0.1.0):
+  - XNKit (1.1):
     - AFNetworking
     - Masonry
     - MJRefresh
     - SDWebImage
-    - XNKit/Extension (= 0.1.0)
-    - XNKit/Header (= 0.1.0)
-    - XNKit/Utils (= 0.1.0)
-    - XNKit/ViewController (= 0.1.0)
-    - XNKit/Views (= 0.1.0)
+    - XNKit/Header (= 1.1)
+    - XNKit/Utils (= 1.1)
+    - XNKit/ViewController (= 1.1)
+    - XNKit/Views (= 1.1)
     - XNProgressHUD
-  - XNKit/Extension (0.1.0):
-    - AFNetworking
-    - Masonry
-    - MJRefresh
-    - SDWebImage
-    - XNProgressHUD
-  - XNKit/Header (0.1.0):
+  - XNKit/Header (1.1):
     - AFNetworking
     - Masonry
     - MJRefresh
     - SDWebImage
     - XNProgressHUD
-  - XNKit/Utils (0.1.0):
+  - XNKit/Utils (1.1):
     - AFNetworking
     - Masonry
     - MJRefresh
     - SDWebImage
     - XNProgressHUD
-  - XNKit/ViewController (0.1.0):
+  - XNKit/ViewController (1.1):
     - AFNetworking
     - Masonry
     - MJRefresh
     - SDWebImage
     - XNProgressHUD
-  - XNKit/Views (0.1.0):
+  - XNKit/Views (1.1):
     - AFNetworking
     - Masonry
     - MJRefresh
@@ -90,7 +83,7 @@ SPEC CHECKSUMS:
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MJRefresh: eeda70fbf0ad277f3178cef1cd0c3532591d6237
   SDWebImage: 5bf6aec6481ae2a062bdc59f9d6c1d1e552090e0
-  XNKit: 1efb9581c1e85672651151ec8a419c6c0b7a92d5
+  XNKit: 92b1fb52e8fa30853691e96baec20f78f89e0620
   XNProgressHUD: 5b9a7f1a484af6db05af1463ae00a00b645c1468
 
 PODFILE CHECKSUM: fda5c8f5c5f2e0775c75f4db459ecf0946ef2cc8
