@@ -29,24 +29,46 @@ TODO: Add long description of the pod here.
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
+  
+  s.dependency 'Masonry'
+  s.dependency 'MJRefresh'
+  s.dependency 'SDWebImage'
+  s.dependency 'AFNetworking'
+  s.dependency 'XNProgressHUD'
+  
+  s.source_files = 'XNKit/Classes/**/*'
 
-#  s.source_files = 'XNKit/Classes/**/*'
-
+  s.subspec 'Header' do |ss|
+     ss.source_files = 'XNKit/Classes/Header/*'
+  end
   
   s.subspec 'Utils' do |ss|
-    ss.source_files = 'XNKit/Classes/Utils/**/*.{h,m}'
+    ss.source_files = 'XNKit/Classes/Utils/**/*'
   end
   
-
   s.subspec 'Extension' do |ss|
-    ss.source_files = 'XNKit/Classes/Extension/*.{h,m}'
+     ss.source_files = 'XNKit/Classes/Extension/**/*'
+  end
+
+  s.subspec 'ViewController' do |ss|
+    ss.source_files = 'XNKit/Classes/ViewController/**/*'
   end
   
-  # s.resource_bundles = {
-  #   'XNKit' => ['XNKit/Assets/*.png']
-  # }
+  s.subspec 'Views' do |ss|
+     ss.source_files = 'XNKit/Classes/Views/*'
+  end
+  
+  s.resource_bundles = {
+         'XNKit' => ['XNKit/Assets/**/*']
+  }
+  
+  
+  s.swift_version='4.0'
+  s.requires_arc = true
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  valid_archs = ['arm64', 'armv7', 'armv7s']
+
+  s.frameworks = 'UIKit', 'AVFoundation'
+  s.libraries = 'c++','resolv'
+  
 end

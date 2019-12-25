@@ -18,5 +18,60 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "XNKit/Classes/**/*"
+  "dependencies": {
+    "Masonry": [
+
+    ],
+    "MJRefresh": [
+
+    ],
+    "SDWebImage": [
+
+    ],
+    "AFNetworking": [
+
+    ],
+    "XNProgressHUD": [
+
+    ]
+  },
+  "source_files": "XNKit/Classes/**/*",
+  "resource_bundles": {
+    "XNKit": [
+      "XNKit/Assets/**/*"
+    ]
+  },
+  "swift_versions": "4.0",
+  "requires_arc": true,
+  "frameworks": [
+    "UIKit",
+    "AVFoundation"
+  ],
+  "libraries": [
+    "c++",
+    "resolv"
+  ],
+  "subspecs": [
+    {
+      "name": "Header",
+      "source_files": "XNKit/Classes/Header/*"
+    },
+    {
+      "name": "Utils",
+      "source_files": "XNKit/Classes/Utils/**/*"
+    },
+    {
+      "name": "Extension",
+      "source_files": "XNKit/Classes/Extension/**/*"
+    },
+    {
+      "name": "ViewController",
+      "source_files": "XNKit/Classes/ViewController/**/*"
+    },
+    {
+      "name": "Views",
+      "source_files": "XNKit/Classes/Views/*"
+    }
+  ],
+  "swift_version": "4.0"
 }
