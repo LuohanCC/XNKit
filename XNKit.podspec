@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'XNKit'
-  s.version          = '1.3.4'
+  s.version          = '1.3.5'
   s.summary          = 'IOS开发中常用的工具类集锦'
 
 # This description is used to generate tags and improve search results.
