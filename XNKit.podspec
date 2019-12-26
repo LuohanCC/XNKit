@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'XNKit'
-  s.version          = '1.3.3'
+  s.version          = '1.3.4'
   s.summary          = 'IOS开发中常用的工具类集锦'
 
 # This description is used to generate tags and improve search results.
@@ -38,25 +38,25 @@ TODO: Add long description of the pod here.
   
   s.source_files = 'XNKit/Classes/**/*'
 
-#  s.subspec 'Header' do |ss|
-#     ss.source_files = 'XNKit/Classes/Header/*'
-#  end
-#
-#  s.subspec 'Utils' do |ss|
-#    ss.source_files = 'XNKit/Classes/Utils/**/*'
-#  end
+  s.subspec 'Header' do |ss|
+     ss.source_files = 'XNKit/Classes/Header/*'
+  end
+
+  s.subspec 'Utils' do |ss|
+    ss.source_files = 'XNKit/Classes/Utils/**/*'
+  end
   
 #  s.subspec 'Extension' do |ss|
 #     ss.source_files = 'XNKit/Classes/Extension/*'
 #  end
 
-#  s.subspec 'ViewController' do |ss|
-#    ss.source_files = 'XNKit/Classes/ViewController/*'
-#  end
-#
-#  s.subspec 'Views' do |ss|
-#     ss.source_files = 'XNKit/Classes/Views/*'
-#  end
+  s.subspec 'ViewController' do |ss|
+    ss.source_files = 'XNKit/Classes/ViewController/*'
+  end
+
+  s.subspec 'Views' do |ss|
+     ss.source_files = 'XNKit/Classes/Views/*'
+  end
   
   s.resource_bundles = {
          'XNKit' => ['XNKit/Assets/**/*']
