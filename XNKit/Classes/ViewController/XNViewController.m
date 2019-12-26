@@ -7,7 +7,7 @@
 //
 
 #import "XNViewController.h"
-#import "../Extension/UIViewController+XNExtension.h"
+#import "UIViewController+XNExtension.h"
 
 @interface XNViewController ()
 @end
