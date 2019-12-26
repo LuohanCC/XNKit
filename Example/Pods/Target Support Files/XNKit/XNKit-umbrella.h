@@ -45,15 +45,6 @@
 #import "XNTextField.h"
 #import "XNTextView.h"
 #import "XNTipsView.h"
-#import "OS.h"
-#import "XNConf.h"
-#import "XNTools.h"
-#import "XNUserDefaults.h"
-#import "XNUtils.h"
-#import "XNNavigationController.h"
-#import "XNTabBarViewController.h"
-#import "XNViewController.h"
-#import "AlertViewHandler.h"
 
 FOUNDATION_EXPORT double XNKitVersionNumber;
 FOUNDATION_EXPORT const unsigned char XNKitVersionString[];

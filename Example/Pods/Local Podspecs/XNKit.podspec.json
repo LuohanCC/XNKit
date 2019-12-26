@@ -1,6 +1,6 @@
 {
   "name": "XNKit",
-  "version": "1.3",
+  "version": "1.3.1",
   "summary": "IOS开发中常用的工具类集锦",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/LuohanCC/XNKit",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/LuohanCC/XNKit.git",
-    "tag": "1.3"
+    "tag": "1.3.1"
   },
   "platforms": {
     "ios": "8.0"
@@ -50,24 +50,6 @@
   "libraries": [
     "c++",
     "resolv"
-  ],
-  "subspecs": [
-    {
-      "name": "Header",
-      "source_files": "XNKit/Classes/Header/*"
-    },
-    {
-      "name": "Utils",
-      "source_files": "XNKit/Classes/Utils/**/*"
-    },
-    {
-      "name": "ViewController",
-      "source_files": "XNKit/Classes/ViewController/*"
-    },
-    {
-      "name": "Views",
-      "source_files": "XNKit/Classes/Views/*"
-    }
   ],
   "swift_version": "4.0"
 }
