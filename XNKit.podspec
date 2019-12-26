@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'XNKit'
-  s.version          = '1.3'
+  s.version          = '1.3.1'
   s.summary          = 'IOS开发中常用的工具类集锦'
 
 # This description is used to generate tags and improve search results.
@@ -47,7 +47,7 @@ TODO: Add long description of the pod here.
   end
   
 #  s.subspec 'Extension' do |ss|
-#     ss.source_files = 'XNKit/Classes/Extension/*+*'
+#     ss.source_files = 'XNKit/Classes/Extension/*'
 #  end
 
   s.subspec 'ViewController' do |ss|

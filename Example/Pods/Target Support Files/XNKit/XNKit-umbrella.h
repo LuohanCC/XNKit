@@ -11,6 +11,9 @@
 #endif
 
 #import "CALayer+XNExtension.h"
+#import "OS.h"
+#import "XNConf.h"
+#import "XNTools.h"
 #import "NSDate+XNExtension.h"
 #import "NSString+XNExtension.h"
 #import "NSTimer+XNExtension.h"
@@ -25,9 +28,6 @@
 #import "UIView+XNEmptyDisplay.h"
 #import "UIView+XNExtension.h"
 #import "UIViewController+XNExtension.h"
-#import "OS.h"
-#import "XNConf.h"
-#import "XNTools.h"
 #import "XNUserDefaults.h"
 #import "XNUtils.h"
 #import "XNNavigationController.h"
