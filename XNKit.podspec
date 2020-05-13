@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'XNKit'
-  s.version          = '1.3.5'
+  s.version          = '1.3.6'
   s.summary          = 'IOS开发中常用的工具类集锦'
 
 # This description is used to generate tags and improve search results.
@@ -30,11 +30,11 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
   
-  s.dependency 'Masonry', '~> 1.1.0'
-  s.dependency 'MJRefresh', '~> 3.3.1'
-  s.dependency 'SDWebImage', '~> 5.4.0'
-  s.dependency 'AFNetworking', '~> 3.2.1'
-  s.dependency 'XNProgressHUD'
+  s.dependency 'Masonry'
+  s.dependency 'MJRefresh', '3.4.3'
+  s.dependency 'SDWebImage'
+  s.dependency 'AFNetworking', '4.0'
+#  s.dependency 'XNProgressHUD'
   
   s.source_files = 'XNKit/Classes/**/*'
 
@@ -62,7 +62,7 @@ TODO: Add long description of the pod here.
          'XNKit' => ['XNKit/Assets/**/*']
   }
   
-  
+
   s.swift_version='4.0'
   s.requires_arc = true
 
