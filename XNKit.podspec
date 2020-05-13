@@ -33,7 +33,7 @@ TODO: Add long description of the pod here.
   s.dependency 'Masonry'
   s.dependency 'MJRefresh', '3.4.3'
   s.dependency 'SDWebImage'
-  s.dependency 'AFNetworking', '4.0'
+  s.dependency 'AFNetworking', '4.0.0'
 #  s.dependency 'XNProgressHUD'
   
   s.source_files = 'XNKit/Classes/**/*'
