@@ -24,6 +24,7 @@
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		8419FF2B1C88639C1FDCCDA8 /* Pods_XNKit_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5898516E8D7E403051AEF2A1 /* Pods_XNKit_Tests.framework */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		9A3DBFCB246BA7A900A3CC2D /* XNViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A3DBFCA246BA7A900A3CC2D /* XNViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +65,8 @@
 		686975551969F71D38F2C767 /* Pods-XNKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XNKit_Example.debug.xcconfig"; path = "Target Support Files/Pods-XNKit_Example/Pods-XNKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9A3DBFC9246BA7A900A3CC2D /* XNViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = XNViewController.h; path = ../../XNKit/Classes/ViewController/XNViewController.h; sourceTree = "<group>"; };
+		9A3DBFCA246BA7A900A3CC2D /* XNViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = XNViewController.m; path = ../../XNKit/Classes/ViewController/XNViewController.m; sourceTree = "<group>"; };
 		CCAD9B0FCAD9AEDE909D0653 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		CD40269BF7DAF78C5715977C /* XNKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = XNKit.podspec; path = ../XNKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		E6FE9459E5B3D154E5ACD3F9 /* Pods_XNKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XNKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -148,6 +151,8 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* XNViewController.h */,
 				6003F5A6195388D20070C39A /* XNViewController.m */,
+				9A3DBFC9246BA7A900A3CC2D /* XNViewController.h */,
+				9A3DBFCA246BA7A900A3CC2D /* XNViewController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -396,6 +401,7 @@
 			files = (
 				6003F59E195388D20070C39A /* XNAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* XNViewController.m in Sources */,
+				9A3DBFCB246BA7A900A3CC2D /* XNViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
